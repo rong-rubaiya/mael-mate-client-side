@@ -1,15 +1,21 @@
 "use client";
 
 import Banner from "./components/Banner";
+import Coocker from "./components/Coocker";
+import Features from "./components/Features";
 import HotDishes from "./components/Hotedished";
+import Reviews from "./components/Reviews";
 
 
 
 export default function Hero() {
   return (
-   <div>
+   <div className="space-y-5">
     <Banner></Banner>
     <HotDishes/>
+    <Features/>
+    <Coocker/>
+    <Reviews/>
    </div>
   );
 }

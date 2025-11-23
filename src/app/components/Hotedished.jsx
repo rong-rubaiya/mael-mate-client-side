@@ -35,7 +35,7 @@ export default function HotDishesMarquee() {
   return (
     <section className="w-full py-10">
       {/* Heading */}
-      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-gray-900">
+      <h2 className="text-3xl sm:text-5xl font-bold text-center mb-8 fontext">
         Today's Hot Dish
       </h2>
 
@@ -60,8 +60,7 @@ export default function HotDishesMarquee() {
               {/* Image */}
               <div className="relative h-36 w-full">
                 <Image
-                  src={dish.img}
-                  alt={dish.name}
+                 
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 50vw, 20vw"
